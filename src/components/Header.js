@@ -1,25 +1,28 @@
-import logo from '../assets/images/logo.png'
 import {FaTwitter} from 'react-icons/fa'
 import {FaArtstation} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
 
-import "../styles/sidebar.css"
+import "../styles/header.css"
 
-export function Sidebar(){
+export function Header(){
    return(
-      <div className="sidebar">
-         <h2>Ilona Reitsma</h2>
-         <div className="sidebarLinks">
-            <h2>PORTFOLIO</h2>
-            <h3>AQUIRIS</h3>
-            <h3>CAT NIGIRI</h3>
-            <h3>FREELANCE</h3>
-            <h3>PERSONAL PROJECTS</h3>
-            <h2>ABOUT</h2>
-            <h2>CONTACT</h2>
-         </div>
-         <div className="sidebarMedia">
+      <div className="header">
+         <div id="menuToggle">
+               <input type="checkbox" />
+               <span></span>
+               <span></span>
+               <span></span>
+               <ul id="menu">
+                  <a href="#"><li>FREELANCE</li></a>
+                  <a href="#"><li>AQUIRIS</li></a>
+                  <a href="#"><li>CAT NIGIRI</li></a>
+                  <a href="#"><li>PERSONAL</li></a>
+                  <a href="#"><li>CONTACT</li></a>
+                  <a href="#"><li>ABOUT ME</li></a>
+               </ul>
+            </div>
+         <div className="headerMedia">
             <a className="anchorTags" href="https://twitter.com/gunmgally">
                <FaTwitter color="black"/>
             </a>
@@ -33,8 +36,6 @@ export function Sidebar(){
                <FaLinkedin color="black"/>
             </a>
          </div>
-
-      
-      </div>
+      </div>  
    )
 }

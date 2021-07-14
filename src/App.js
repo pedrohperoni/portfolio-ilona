@@ -1,8 +1,13 @@
-import { Sidebar } from "./components/Sidebar";
+import { BrowserRouter, Route } from "react-router-dom";
+import { Home } from "./pages/Home"
+import { Aquiris } from "./pages/Aquiris"
 
 function App() {
   return (
-    <Sidebar />
+    <BrowserRouter>
+       <Route path="/" exact component={Home} />
+       <Route patth="/aquiris" component={Aquiris} />
+    </BrowserRouter>
   );
 }
 
