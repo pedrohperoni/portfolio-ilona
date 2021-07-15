@@ -1,23 +1,42 @@
-.container{
-	width: 100%;
-	min-width: 800px;
+@media (min-width:1024px){
+   .container{
+      width: 100%;
+      min-width: 800px;
+      overflow: hidden;
+   }
+   
+   .sidebar{
+      position: fixed;
+      width: 200px;
+      height: 100%;
+   }
+   
+   .image{
+      margin-left: 200px;
+      display: flex;
+      justify-content: center;
+
+   
+   }
+   
+   .image img{
+      width: 100%;
+      height: auto;
+   }
 }
 
-.sidebar{
-	position: fixed;
-	width: 200px;
-	height: 100%;
-}
+@media (max-width:1024px){
+   .container{
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+   }
+      
+   .image{
+      margin-top: -32px;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+   }
 
-.image{
-	display: flex;
-	margin-left: 200px;
-   overflow: hidden;
-
-}
-
-.image img{
-   width: 100%;
-   height: auto;
-   object-fit: cover;
 }

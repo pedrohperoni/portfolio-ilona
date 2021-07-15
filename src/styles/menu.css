@@ -3,6 +3,10 @@
       display:none;
    }
 
+   .logoImg{
+      margin-top: 80px;
+   }
+
 .sidebar{
    width: 200px;
    background-color: var(--color1);
@@ -43,6 +47,12 @@ h3{
    .sidebarLinks{
       display: none;
    }
+
+   .logoImg{
+      visibility: hidden;
+      position: absolute;
+   }
+
    .sidebar{
       width: 100%;
       display: flex;
@@ -50,7 +60,7 @@ h3{
       align-items: center;
       justify-content: space-between;
       margin-bottom: 2em;
-      background-color: red;
+      background-color: var(--color1);
       height: 50px;
     }
    

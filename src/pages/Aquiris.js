@@ -1,9 +1,9 @@
-import { Header } from "../components/Header"
+import { Menu } from "../components/Menu"
 
 export function Aquiris(){
    return(
       <div>
-         <Header />
+         <Menu />
       </div>
    )
 }

@@ -7,12 +7,10 @@ export function Home(){
    return(
       <div>
          <div className="container">
-         <div className="sidebar">
             <Menu />
-         </div>
-         <div className="image">
-            <img src={landingImg} alt="landing" />
-         </div>
+            <div className="image">
+               <img className="coverArt" src={landingImg} alt="landing" />
+            </div>
          </div>
       </div>
    )
