@@ -12,13 +12,13 @@ export function Menu(){
       <div className="sidebar">
          <img className="logoImg" src={logo} alt="logo" />  
          <div className="sidebarLinks">  
-         <Link style={{ textDecoration: 'none' }} to="/"><h2>PORTFOLIO</h2></Link>  
-            <Link style={{ textDecoration: 'none' }} to="/aquiris"><h3>AQUIRIS</h3></Link>    
-            <Link style={{ textDecoration: 'none' }} to="/catnigiri"><h3>CAT NIGIRI</h3></Link>  
-            <Link style={{ textDecoration: 'none' }} to="/personal"><h3>PERSONAL</h3></Link>  
-            <Link style={{ textDecoration: 'none' }} to="/freelance"><h3>FREELANCE</h3></Link>  
-            <Link style={{ textDecoration: 'none' }} to="/about"><h2>ABOUT</h2></Link>  
-            <Link style={{ textDecoration: 'none' }} to="/contact"><h2>CONTACT</h2></Link>  
+         <Link style={{ textDecoration: 'none', color: 'inherit'  }} to="/"><h2>PORTFOLIO</h2></Link>  
+            <Link style={{ textDecoration: 'none', color: 'inherit' }}to="/aquiris"><h3>AQUIRIS</h3></Link>    
+            <Link style={{ textDecoration: 'none', color: 'inherit'  }} to="/catnigiri"><h3>CAT NIGIRI</h3></Link>  
+            <Link style={{ textDecoration: 'none', color: 'inherit'  }} to="/personal"><h3>PERSONAL</h3></Link>  
+            <Link style={{ textDecoration: 'none', color: 'inherit'  }} to="/freelance"><h3>FREELANCE</h3></Link>  
+            <Link style={{ textDecoration: 'none', color: 'inherit'  }} to="/about"><h2>ABOUT</h2></Link>  
+            <Link style={{ textDecoration: 'none', color: 'inherit'  }} to="/contact"><h2>CONTACT</h2></Link>  
          </div>
          <div id="menuToggle">
                <input type="checkbox" />

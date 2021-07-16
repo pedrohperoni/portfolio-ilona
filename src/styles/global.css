@@ -2,10 +2,11 @@
 
 
 :root{
-   --background:#F0F5F9;
-   --color1:#C9D6DF;
-   --color2:#52616B;
-   --color3:#1E2022;
+   --background:#F9F7F7;
+   --sidebar:#112D4E;
+   --tags:#DBE2EF;
+   --tagsHover:#DBE2EF;
+   --black:#1E2022;
 }
 
 
@@ -27,19 +28,23 @@
    }
  }
  
- body, input, textarea{
+ body, input{
    font-family: 'Noto Sans JP', sans-serif;
-   color: var(--color3);
+   color: var(--tags);
    background-color: var(--background);
-   overflow-y: hidden;
  }
 
  button{
    cursor: pointer;
  }
 
-h1, h2, h3{
+h1{
    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3{
+   font-family: 'Roboto', sans-serif;
+   color: var(--tags);
 }
 
 
@@ -51,8 +56,9 @@ h3{
    font-size:0.85em;
 }
 
-h4{
+h4, p{
    font-family: 'Noto Sans JP', sans-serif;
+   color: var(--black);
 }
 
 

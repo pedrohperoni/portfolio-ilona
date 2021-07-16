@@ -1,0 +1,46 @@
+@media (min-width:1024px){
+   .main{
+      margin-left: 200px;
+   }
+}
+
+@media(max-width:1024px){
+   .main{
+      margin-top: -31px;
+      margin-left: 0px;
+   }
+}
+
+.about{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.about h1{
+   margin-top: 20px;
+}
+
+.about span{
+   width: 200px;
+   border-bottom: 1px solid;
+   margin: 10px 0 20px 0;
+}
+
+.paragraph{
+   margin: 0 80px;
+   width: 800px;
+}
+
+.portrait{
+   margin: 40px;
+   width: 800px;
+   display: flex;
+   justify-content: center;
+}
+
+.portrait img{
+   max-height: 100%;
+   max-width: 100%;
+}

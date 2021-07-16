@@ -1,5 +1,5 @@
 import "../styles/home.css"
-import landingImg from "../assets/images/landing.jpg"
+import landingImg from "../assets/images/landing.png"
 import { Menu } from "../components/Menu";
 
 
