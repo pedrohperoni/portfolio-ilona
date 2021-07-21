@@ -26,13 +26,13 @@ export function Menu(){
                <span></span>
                <span></span>
                <ul id="menu">
-               <Link style={{ textDecoration: 'none' }} to="/"><a><li>HOME</li></a></Link>
-               <Link style={{ textDecoration: 'none' }} to="/freelance"><a><li>FREELANCE</li></a></Link>
-               <Link style={{ textDecoration: 'none' }} to="/aquiris"><a><li>AQUIRIS</li></a></Link>
-               <Link style={{ textDecoration: 'none' }} to="/catnigiri"><a><li>CAT NIGIRI</li></a></Link>
-               <Link style={{ textDecoration: 'none' }} to="/personal"><a><li>PERSONAL</li></a></Link>
-               <Link style={{ textDecoration: 'none' }} to="/contact"><a><li>CONTACT</li></a></Link>
-               <Link style={{ textDecoration: 'none' }} to="/about"><a><li>ABOUT ME</li></a></Link>
+               <Link style={{ textDecoration: 'none' }} to="/"><li>HOME</li></Link>
+               <Link style={{ textDecoration: 'none' }} to="/freelance"><li>FREELANCE</li></Link>
+               <Link style={{ textDecoration: 'none' }} to="/aquiris"><li>AQUIRIS</li></Link>
+               <Link style={{ textDecoration: 'none' }} to="/catnigiri"><li>CAT NIGIRI</li></Link>
+               <Link style={{ textDecoration: 'none' }} to="/personal"><li>PERSONAL</li></Link>
+               <Link style={{ textDecoration: 'none' }} to="/contact"><li>CONTACT</li></Link>
+               <Link style={{ textDecoration: 'none' }} to="/about"><li>ABOUT ME</li></Link>
                </ul>
             </div>
          <div className="sidebarMedia">
