@@ -31,7 +31,6 @@ export function Personal(){
             </>
          ))}
       </Masonry>  
-
       </div>
    )
 }
