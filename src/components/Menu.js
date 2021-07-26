@@ -37,16 +37,16 @@ export function Menu(){
             </div>
          <div className="sidebarMedia">
             <a className="anchorTags" href="https://twitter.com/gunmgally">
-               <FaTwitter color="black"/>
+               <FaTwitter color="white"/>
             </a>
             <a className="anchorTags" href="https://www.artstation.com/ilonareitsma">
-               <FaArtstation color="black"/>
+               <FaArtstation color="white"/>
             </a>
             <a className="anchorTags" href="https://www.instagram.com/ilonabrp/">
-               <FaInstagram color="black"/>
+               <FaInstagram color="white"/>
             </a>
             <a className="anchorTags" href="https://www.linkedin.com/in/ilona-reitsma-27490167/">
-               <FaLinkedin color="black"/>
+               <FaLinkedin color="white"/>
             </a>
          </div>
 

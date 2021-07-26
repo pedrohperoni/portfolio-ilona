@@ -6,6 +6,7 @@ import { Catnigiri} from "./pages/Catnigiri"
 import { Contact } from "./pages/Contact";
 import { About } from "./pages/About";
 import { Personal } from "./pages/Personal";
+import { Freelance } from "./pages/Freelance";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
        <Route path="/contact" exact component={Contact} />
        <Route path="/about" exact component={About} />
        <Route path="/personal" exact component={Personal} />
+       <Route path="/freelance" exact component={Freelance} />
     </BrowserRouter>
     </SimpleReactLightbox>
   );

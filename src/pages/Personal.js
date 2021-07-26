@@ -4,10 +4,11 @@ import Masonry from "react-masonry-css"
 import "../styles/main.css"
 import images from"../images"
 import { Loader } from "../components/Loader"
+import { SRLWrapper } from "simple-react-lightbox"
 
 
 let CNImages = images.filter(function(el){
-   return el.category === 'catnigiri';
+   return el.category === 'personal';
 })
 
 export function Personal(){
@@ -20,6 +21,7 @@ export function Personal(){
    return(
       <div className="main">
       <Menu />
+      <SRLWrapper>
       <Masonry
          breakpointCols={{default: 2, 1024: 1}}
          className="my-masonry-grid"
@@ -30,7 +32,8 @@ export function Personal(){
                <img src={image.source} alt={image.description} onLoad={removeSpinner}/>    
             </>
          ))}
-      </Masonry>  
+      </Masonry>
+      </SRLWrapper>
       </div>
    )
 }

@@ -43,6 +43,34 @@ const images = [
    'description': 'Keen concept art2',
    'category': 'personal',
 },
+{
+   '_id': 6,
+   'name': 'Personal',
+   'source': '/images/personal.png',
+   'description': 'Personal',
+   'category': 'personal',
+},
+{
+   '_id': 7,
+   'name': 'Penelope',
+   'source': '/images/penelope.jpg',
+   'description': 'Personal',
+   'category': 'aquiris',
+},
+{
+   '_id': 8,
+   'name': 'Personal',
+   'source': '/images/looney.jpg',
+   'description': 'Personal',
+   'category': 'aquiris',
+},
+{
+   '_id': 9,
+   'name': 'Personal',
+   'source': '/images/bugs.jpg',
+   'description': 'Personal',
+   'category': 'aquiris',
+},
 
 ]
 
