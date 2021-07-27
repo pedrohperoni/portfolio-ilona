@@ -3,10 +3,11 @@
 
 :root{
    --background:#F9F7F7;
-   --sidebar:#112D4E;
+   /* --sidebar:#112D4E; */
    --tags:#DBE2EF;
    --tagsHover:#DBE2EF;
    --black:#1E2022;
+   --sidebar:#11101d;
 }
 
 
@@ -49,11 +50,11 @@ h2, h3{
 
 
 h2{
-   font-size: 1em;
+   font-size: 1.2em;
 }
 
 h3{
-   font-size:0.85em;
+   font-size:1em;
 }
 
 h4, p{

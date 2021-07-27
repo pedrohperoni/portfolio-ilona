@@ -1,12 +1,11 @@
 @media (min-width:1024px){
    .main{
-      margin-left: 200px;
+      margin-left: 240px;
    }
 }
 
 @media(max-width:1024px){
    .main{
-      margin-top: -31px;
       margin-left: 0px;
    }
 }
